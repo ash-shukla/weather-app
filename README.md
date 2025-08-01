@@ -1,12 +1,23 @@
-# React + Vite
+**Weather App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--- This Weather app is built on top of React.js Along with Ant Design as a UI Library ---
 
-Currently, two official plugins are available:
+--- For State management React's inbuilt Context API has been used ---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--- For Theme system Ant Design's default theme algorithm is used ---
 
-## Expanding the ESLint configuration
+**I have used yarn package bundling**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+a:So if you don't have yarn make sure to run the command:
+**npm install -g yarn**
+this install yarn in your machine globally
+
+--- Now run the command **yarn install**
+
+--- Once the dependencies are installed run **yarn dev** this starts the server
+
+--- I have updated the **vite.config.js** with **port:5000** and **open:true** that loads the
+
+    project automatically(by default vite's port is 5173 and open is false)
+
+--- Once the project loads you can the **Weather App**
