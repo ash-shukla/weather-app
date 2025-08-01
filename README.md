@@ -1,5 +1,7 @@
 **Weather App**
 
+**[Weather-app-deployed-link](https://weather-app-flame-nu-78.vercel.app/)**
+
 --- This Weather app is built on top of React.js Along with Ant Design as a UI Library ---
 
 --- For State management React's inbuilt Context API has been used ---
