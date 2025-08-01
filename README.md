@@ -14,7 +14,11 @@ this install yarn in your machine globally
 
 --- Now run the command **yarn install**
 
+    yarn install
+
 --- Once the dependencies are installed run **yarn dev** this starts the server
+
+    yarn dev
 
 --- I have updated the **vite.config.js** with **port:5000** and **open:true** that loads the
 
