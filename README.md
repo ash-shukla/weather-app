@@ -10,6 +10,9 @@
 
 a:So if you don't have yarn make sure to run the command:
 **npm install -g yarn**
+
+    npm install -g yarn
+
 this install yarn in your machine globally
 
 --- Now run the command **yarn install**
@@ -21,7 +24,6 @@ this install yarn in your machine globally
     yarn dev
 
 --- I have updated the **vite.config.js** with **port:5000** and **open:true** that loads the
-
-    project automatically(by default vite's port is 5173 and open is false)
+project automatically(by default vite's port is 5173 and open is false)
 
 --- Once the project loads you can the **Weather App**
