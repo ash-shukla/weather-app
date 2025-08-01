@@ -12,7 +12,7 @@ const OutfitSuggestion = () => {
   const suggestions = [];
 
   if (temp_c < 10) suggestions.push("🧥 Wear a jacket");
-  if (temp_c > 10 && temp_c < 25) suggestions.push(" Wear a blazer");
+  if (temp_c > 10 && temp_c < 25) suggestions.push("🧥 Wear a blazer");
   if (temp_c > 25) suggestions.push("😎 Sunglasses suggested");
   if (condition.text.toLowerCase().includes("rain"))
     suggestions.push("☔ Take an umbrella");
